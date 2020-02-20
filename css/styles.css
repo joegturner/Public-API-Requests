@@ -16,6 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
+    /* altered background color */
     background: rgba(12, 15, 54, 0.9);
 }
 
@@ -78,6 +79,7 @@ header h1 {
 }
   
 .card {
+    /* added box-shadow */
     box-shadow: 2px 2px rgba(155, 151, 151, 0.7);
     display: flex;
     flex-direction: row;
@@ -88,6 +90,7 @@ header h1 {
     max-width: 360px;
     margin: 10px 10px 20px;
     padding: 10px;
+    /* altered background color */
     background: rgba(247, 247, 239, 0.9);
     border-radius: 0.25em;
     border: 1px solid rgba(50, 50, 50, 0.3);
@@ -107,11 +110,13 @@ header h1 {
 
 .card-name {
     margin: 20px auto 0;
+    /* added text-shadow */
     text-shadow: 1px 1px rgba(155, 151, 151, 0.7);
 }
 
 .card-text {
     font-size: 0.9em;
+    /* altered text color */
     color: rgba(50, 50, 50, 0.7);
     margin: 7px auto;
     transition: .4s ease-out;
